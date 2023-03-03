@@ -10,6 +10,10 @@ import warnings
 warnings.filterwarnings("ignore")
 import ipywidgets
 import jupyter
+import nltk
+nltk.download('all')
+
+
 
 
 import matplotlib.pyplot as plt
