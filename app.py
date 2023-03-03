@@ -22,7 +22,6 @@ import streamlit as st
 from wordcloud import WordCloud
 import Helper
 import preprocessor
-from googletrans import Translator
 from textblob import TextBlob
 import os
 from mtranslate import translate
