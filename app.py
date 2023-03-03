@@ -11,7 +11,7 @@ warnings.filterwarnings("ignore")
 import ipywidgets
 import jupyter
 import nltk
-import openyxl
+import openpyxl
 nltk.download('all')
 
 
