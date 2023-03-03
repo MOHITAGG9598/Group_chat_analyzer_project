@@ -4,6 +4,7 @@ import streamlit as st
 from transformers import pipeline
 from transformers import AutoTokenizer
 from transformers import AutoModelForSequenceClassification
+from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import numpy as np
 import warnings
 warnings.filterwarnings("ignore")

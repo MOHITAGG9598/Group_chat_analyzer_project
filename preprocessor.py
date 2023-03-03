@@ -5,11 +5,13 @@ from textblob import TextBlob
 import numpy as np
 import matplotlib.pyplot as plt
 import nltk
-from nltk.sentiment import SentimentIntensityAnalyzer
+from nltk.sentiment.vader import SentimentIntensityAnalyzer
 from tqdm.notebook import tqdm
 import ipywidgets
 import jupyter
 sia=SentimentIntensityAnalyzer()
+import nltk
+nltk.downloader.download('vader_lexicon')
 
 def preprocess(data):
     pattern ='\d{1,2}/\d{1,2}/\d{2,4},\s\d{1,2}:\d{2}\s-\s'
